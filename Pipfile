@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+pandas = "*"
+numpy = "*"
+pyotp = "*"
+psycopg2-binary = "*"
+common-shared-library = {git = "https://github.com/addenergyx/common-shared-library.git"}
+python-dotenv = "*"
+s3fs = "*"
+pyarrow = "*"
+
+[dev-packages]
+setuptools = "*"
+wheel = "*"
+
+[requires]
+python_version = "3.12"
