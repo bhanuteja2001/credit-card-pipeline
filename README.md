@@ -1,12 +1,8 @@
-# Credit Card Cashback Data Pipeline
-
-## Data Engineering Zoomcamp Capstone Project
+# Credit Card Rewards Pipeline
 
 ### Introduction
 
-Credit card cashback rewards are a popular feature of many credit cards.
-This project is designed to provide an efficient and reliable data pipeline for analyzing credit card cashback rewards data. 
-The data pipeline collects, processes, and stores data from the payment card via an API to help identify spending and reward patterns.
+Credit card issuers frequently offer cashback incentives as a key selling point for their products. This initiative aims to create a streamlined and dependable data infrastructure for examining information related to credit card cashback rewards. The system is designed to gather, refine, and archive data obtained from payment cards through an API interface. Its primary objective is to uncover trends in spending habits and reward accumulation, providing valuable insights for both cardholders and issuers alike.
 
 ## Table of Contents
 
@@ -44,20 +40,21 @@ Create AWS resources with Terraform
 
 ### Project Description
 
-The core problem addressed by this project revolves around the efficient tracking and analysis of cashback rewards. 
-Currently, users of the cashback card face difficulties in monitoring the status of their rewards, which can lead to a lack of clarity regarding their financial benefits. 
-Without a streamlined process to track these rewards, users might not be able to optimize their spending patterns or fully leverage the benefits offered by the card.
+Here's a rephrased version:
 
-To resolve this, the project proposes the development of a dedicated data pipeline, designed to automate the collection, processing, and storage of transaction and rewards data through the card's API. 
-This pipeline will enable users to gain real-time insights into their spending and the status of their rewards. 
+This project tackles the challenge of effectively monitoring and evaluating cashback rewards. Presently, cashback card users struggle to keep tabs on their reward status, often resulting in a lack of clarity about their financial perks. The absence of a streamlined tracking system hinders users from maximizing their spending strategies and fully capitalizing on the card's advantages.
 
-The automated data pipeline aims to:
+To address this issue, the project proposes creating a specialized data pipeline that automates the gathering, processing, and storage of transaction and reward information via the card's API. This system will provide users with up-to-the-minute insights into their expenditures and reward status.
 
-- Aggregate detailed transaction data, providing a comprehensive view of spending.
-- Monitor the accrual and release of cashback rewards, ensuring users have up-to-date information.
-- Analyze spending patterns in conjunction with reward accumulation, offering insights for optimizing cashback potential.
-- Present a clear and user-friendly interface for tracking and analysis, empowering users with actionable financial information.
-- Serverless architecture for scalability and cost efficiency.
+The automated data pipeline is designed to:
+
+1. Compile comprehensive transaction data, offering a thorough overview of spending habits.
+2. Track the accumulation and distribution of cashback rewards, ensuring users have access to current information.
+3. Examine spending trends in relation to reward accrual, providing strategies to maximize cashback potential.
+4. Deliver an intuitive, user-friendly interface for tracking and analysis, equipping users with practical financial insights.
+5. Utilize serverless architecture to ensure scalability and cost-effectiveness.
+
+By implementing this solution, users will gain a powerful tool to better understand and optimize their cashback rewards, ultimately enhancing their financial decision-making and benefits from the card.
 
 Examples of data can be found at `rewards.csv` and `transactions.csv`
 
