@@ -4,25 +4,6 @@
 
 Credit card issuers frequently offer cashback incentives as a key selling point for their products. This initiative aims to create a streamlined and dependable data infrastructure for examining information related to credit card cashback rewards. The system is designed to gather, refine, and archive data obtained from payment cards through an API interface. Its primary objective is to uncover trends in spending habits and reward accumulation, providing valuable insights for both cardholders and issuers alike.
 
-## Table of Contents
-
-- [Architecture](#architecture)
-- [Project Description](#project-description)
-- [Dashboard](#dashboard)
-- [Architecture Overview](#architecture-overview)
-  - [Workflow Orchestration](#workflow-orchestration)
-  - [Cloud Platform](#cloud-platform)
-  - [Data Ingestion](#data-ingestion)
-- [Technology](#technology)
-  - [Infrastructure layer](#infrastructure-layer)
-  - [Stack](#stack)
-  - [Data Warehouse (Redshift)](#data-warehouse)
-  - [Data Transformation (Glue/Pandas)](#data-transformation)
-  - [Stack](#stack)
-- [Setup](#setup)
-  - [Pre-requisites](#pre-requisites)
-  - [Instructions](#instructions)
-  - [Tear Down](#tear-down)
 
 
 ## Architecture
